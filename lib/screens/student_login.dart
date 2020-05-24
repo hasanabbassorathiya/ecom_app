@@ -125,7 +125,7 @@ class _StudentLoginState extends State<StudentLogin> {
           barrierDismissible: false,
           child: new CupertinoAlertDialog(
             content: new Text(
-              "staff_email or staff_pass \ncan't be empty",
+              "Email  or Password \ncan't be empty",
               style: new TextStyle(fontSize: 16.0),
             ),
             actions: <Widget>[
