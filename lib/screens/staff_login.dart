@@ -92,7 +92,7 @@ class _StaffLoginState extends State<StaffLogin> {
                   }),
             ),
             submitButton(
-              title: 'SignUp',
+              title: 'Login',
               function: () {
                 print('Username:${staff_username.text}');
                 print('Email:${staff_email.text}');
@@ -129,7 +129,7 @@ class _StaffLoginState extends State<StaffLogin> {
           barrierDismissible: false,
           child: new CupertinoAlertDialog(
             content: new Text(
-              "staff_email or staff_pass \ncan't be empty",
+              "Email  or Password \ncan't be empty",
               style: new TextStyle(fontSize: 16.0),
             ),
             actions: <Widget>[
