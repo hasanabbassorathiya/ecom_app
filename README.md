@@ -1,16 +1,49 @@
-# ecomapp
+# FlutterChallenge
 
 A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Screen I- Login Screen
+1.	Design a login Screen as per the given image.
+2.	There should be two forms on the same login screen(For eg: Staff login and Student Login).
+3.	After login the screen II should be dynamically set so the user doesn’t have to login again every time he opens the app.
 
-A few resources to get you started if this is your first Flutter project:
+Screen II-Home Screen
+Json: [
+  {
+    "CATEGORY_ID": "7",
+    "Categories": "GROCERIES",
+    "ITEM_ID": "277",
+    "ENGISH_NAME": "AMARANTH/ RAJGIRA",
+    "PRICE": "50.00"
+  },
+  {
+    "CATEGORY_ID": "7",
+    "Categories": "GROCERIES",
+    "ITEM_ID": "277",
+    "ENGISH_NAME": "AMARANTH/ RAJGIRA",
+    "PRICE": "50.00"
+  },
+  {
+    "CATEGORY_ID": "6",
+    "Categories": "FRUITS",
+    "ITEM_ID": "97",
+    "ENGISH_NAME": "APPLE - RED",
+    "PRICE": "20.00"
+  },
+  {
+    "CATEGORY_ID": "1",
+    "Categories": "DAIRY PRODUCTS",
+    "ITEM_ID": "1",
+    "ENGISH_NAME": "BUTTER ",
+    "PRICE": "66.00"
+  }
+]
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1.	Design a dynamic UI as per the image for the given data.
+2.	Give a working search for categories.
+3.	An option to logout.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+All the given task are completed.
+
